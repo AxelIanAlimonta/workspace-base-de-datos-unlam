@@ -1,0 +1,43 @@
+Dada la siguiente base de datos:
+
+Almacén (Nro, Responsable)
+Artículo (CodArt, descripción, Precio)
+Material (CodMat, Descripción)
+Proveedor (CodProv, Nombre, Domicilio, Ciudad)
+Tiene (Nro, CodArt)
+Compuesto_por (CodArt, CodMat)
+Provisto_por (CodMat, CodProv)
+
+1. Listar los nombres de los proveedores de la ciudad de La Plata.
+2. Listar los números de artículos cuyo precio sea inferior a $10.
+3. Listar los responsables de los almacenes.
+4. Listar los códigos de los materiales que provea el proveedor 10 y no los provea el
+proveedor 15.
+5. Listar los números de almacenes que almacenan el artículo A.
+6. Listar los proveedores de Pergamino que se llamen Pérez.
+7. Listar los almacenes que contienen los artículos A y los artículos B (ambos).
+8. Listar los artículos que cuesten más de $100 o que estén compuestos por el
+material M1.
+9. Listar los materiales, código y descripción, provistos por proveedores de la ciudad
+de Rosario.
+10. Listar el código, descripción y precio de los artículos que se almacenan en A1.
+11. Listar la descripción de los materiales que componen el artículo B.
+12. Listar los nombres de los proveedores que proveen los materiales al almacén que
+Martín Gómez tiene a su cargo.
+13. Listar códigos y descripciones de los artículos compuestos por al menos un
+material provisto por el proveedor López.
+14. Hallar los códigos y nombres de los proveedores que proveen al menos un
+material que se usa en algún artículo cuyo precio es mayor a $100.
+15. Listar los números de almacenes que tienen todos los artículos que incluyen el
+material con código 123.
+16. Listar los proveedores de Capital Federal que sean únicos proveedores de algún
+material.
+17. Listar el/los artículo/s de mayor precio.
+18. Listar el/los artículo/s de menor precio.
+19. Listar el promedio de precios de los artículos en cada almacén.
+20. Listar los almacenes que almacenan la mayor cantidad de artículos.
+21. Listar los artículos compuestos por al menos 2 materiales.
+22. Listar los artículos compuestos por exactamente 2 materiales.
+23. Listar los artículos que estén compuestos con hasta 2 materiales.
+24. Listar los artículos compuestos por todos los materiales.
+25. Listar las ciudades donde existan proveedores que provean todos los materiales.
