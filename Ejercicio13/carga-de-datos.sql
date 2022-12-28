@@ -1,0 +1,20 @@
+use ejercicio13
+
+insert into Nivel values(	1	,	'nivel 1'	)
+insert into Nivel values(	2	,	'nivel 2'	)
+insert into Nivel values(	3	,	'nivel 3'	)
+insert into Nivel values(	4	,	'nivel 4'	)
+insert into Nivel values(	5	,	'nivel 5'	)
+
+insert into Medicion values(	'	2009-03-01	'	,	'	20:00:00	'	,	'M1'		,	25	,	25	,	20	,	1	)
+insert into Medicion values(	'	2009-03-02	'	,	'	21:00:00	'	,	'M1'		,	26	,	26	,	21	,	1	)
+insert into Medicion values(	'	2009-03-03	'	,	'	22:00:00	'	,	'M1'		,	27	,	27	,	22	,	1	)
+insert into Medicion values(	'	2022-12-28	'	,	'	23:00:00	'	,	'M1'	,	28	,	28	,	23	,	1	)
+insert into Medicion values(	'	2022-12-28	'	,	'	0:00:00	'	,	'M1'	,	29	,	29	,	24	,	2	)
+insert into Medicion values(	'	2022-12-28	'	,	'	1:00:00	'	,	'M1'	,	30	,	30	,	25	,	3	)
+insert into Medicion values(	'	2022-01-01	'	,	'	2:00:00	'	,	'M3'	,	31	,	31	,	26	,	1	)
+insert into Medicion values(	'	2022-01-02	'	,	'	3:00:00	'	,	'M3'	,	32	,	32	,	27	,	2	)
+insert into Medicion values(	'	2022-01-03	'	,	'	4:00:00	'	,	'M3'	,	33	,	33	,	28	,	3	)
+insert into Medicion values(	'	2022-01-04	'	,	'	5:00:00	'	,	'M3'	,	34	,	34	,	29	,	1	)
+insert into Medicion values(	'	2022-01-05	'	,	'	6:00:00	'	,	'M3'	,	35	,	35	,	30	,	2	)
+insert into Medicion values(	'	2022-01-01	'	,	'	3:00:00	'	,	'M3'	,	25	,	31	,	26	,	1	)
